@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+background-color:#F03358;
+}
+table{
+margin: auto;
+}
+thead{
+background-color:#BC0022;
+}
+tbody{
+background-color: #6D6E71;
+}
+td{
+font-family: "Roboto",sans-serif;
+border: 1px solid black;
+font-size: 5vh;
+animation-name: aparecer;
+animation-duration: 1.5s;
+}
+th{
+font-family: 'Roboto',sans-serif;
+border:3px solid black;
+font-size: 7vh;
+}
+
+@keyframes aparecer {
+    50%{
+    opacity: 0.3;
+    }
+   75%{
+       opacity:0.5;
+   }
+   100%{
+       opacity:1;
+   }
+}
